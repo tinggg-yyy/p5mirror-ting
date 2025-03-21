@@ -1,0 +1,1155 @@
+[
+  {
+    "_id": "11ov_6yWU",
+    "name": "NIME",
+    "description": "",
+    "slug": "NIME",
+    "owner": {
+      "_id": "65b0cf8a7d8185001a7b9254",
+      "username": "Tinggg",
+      "id": "65b0cf8a7d8185001a7b9254"
+    },
+    "items": [
+      {
+        "project": {
+          "_id": "pcEG4NZYC",
+          "name": "NIME Visualization",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Final_Project_7_Serial_copy",
+          "id": "pcEG4NZYC"
+        },
+        "_id": "670c4a7729ac5f8734f7106e",
+        "createdAt": "2024-10-13T22:32:23.582Z",
+        "updatedAt": "2024-10-13T22:32:23.582Z",
+        "id": "670c4a7729ac5f8734f7106e",
+        "projectId": "pcEG4NZYC",
+        "isDeleted": false
+      }
+    ],
+    "createdAt": "2024-10-13T22:31:33.492Z",
+    "updatedAt": "2024-10-13T22:32:23.582Z",
+    "__v": 1,
+    "id": "11ov_6yWU"
+  },
+  {
+    "_id": "7fg8VMA7H",
+    "name": "NOC",
+    "description": "",
+    "slug": "NOC",
+    "owner": {
+      "_id": "65b0cf8a7d8185001a7b9254",
+      "username": "Tinggg",
+      "id": "65b0cf8a7d8185001a7b9254"
+    },
+    "items": [
+      {
+        "project": {
+          "_id": "-kIEd7o-r",
+          "name": "map",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Bright_trollius",
+          "id": "-kIEd7o-r"
+        },
+        "_id": "66fda61695bce24cd7222801",
+        "createdAt": "2024-10-02T19:59:18.282Z",
+        "updatedAt": "2024-10-02T19:59:18.282Z",
+        "id": "66fda61695bce24cd7222801",
+        "projectId": "-kIEd7o-r",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "4EpWq3ymG",
+          "name": "NOC 01 lerp() copy",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_01_lerp()_copy",
+          "id": "4EpWq3ymG"
+        },
+        "_id": "66fda6160a9eb2f90af8058e",
+        "createdAt": "2024-10-02T19:59:18.903Z",
+        "updatedAt": "2024-10-02T19:59:18.903Z",
+        "id": "66fda6160a9eb2f90af8058e",
+        "projectId": "4EpWq3ymG",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "o0DKduRVM",
+          "name": "vertex",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "vertex",
+          "id": "o0DKduRVM"
+        },
+        "_id": "66fda617ee06795640f4b3bc",
+        "createdAt": "2024-10-02T19:59:19.400Z",
+        "updatedAt": "2024-10-02T19:59:19.400Z",
+        "id": "66fda617ee06795640f4b3bc",
+        "projectId": "o0DKduRVM",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "7Ml7c7USZ",
+          "name": "curvevertex",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_Exercise_1.1_Custom_Shape_copy",
+          "id": "7Ml7c7USZ"
+        },
+        "_id": "66fda61895bce24cd722286d",
+        "createdAt": "2024-10-02T19:59:20.237Z",
+        "updatedAt": "2024-10-02T19:59:20.237Z",
+        "id": "66fda61895bce24cd722286d",
+        "projectId": "7Ml7c7USZ",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "lOg8Kk14N",
+          "name": "Angle",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Shadowed_cone",
+          "id": "lOg8Kk14N"
+        },
+        "_id": "66fda61895bce24cd722288f",
+        "createdAt": "2024-10-02T19:59:20.764Z",
+        "updatedAt": "2024-10-02T19:59:20.764Z",
+        "id": "66fda61895bce24cd722288f",
+        "projectId": "lOg8Kk14N",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "WW2_ULWuM",
+          "name": "Transformation",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_Exercise_1.2_Transformations_copy",
+          "id": "WW2_ULWuM"
+        },
+        "_id": "66fda61995bce24cd72228a8",
+        "createdAt": "2024-10-02T19:59:21.400Z",
+        "updatedAt": "2024-10-02T19:59:21.400Z",
+        "id": "66fda61995bce24cd72228a8",
+        "projectId": "WW2_ULWuM",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "vlBrk1j7S",
+          "name": "NOC_#W01_ Flower_Ting",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Transformation_copy",
+          "id": "vlBrk1j7S"
+        },
+        "_id": "66fda61aee06795640f4b487",
+        "createdAt": "2024-10-02T19:59:22.637Z",
+        "updatedAt": "2024-10-02T19:59:22.637Z",
+        "id": "66fda61aee06795640f4b487",
+        "projectId": "vlBrk1j7S",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "IeX6SNpxQ",
+          "name": "NOC W02 Reference",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_2.2_in-class_Vector_copy",
+          "id": "IeX6SNpxQ"
+        },
+        "_id": "66fda61b0a9eb2f90af80fb5",
+        "createdAt": "2024-10-02T19:59:23.015Z",
+        "updatedAt": "2024-10-02T19:59:23.015Z",
+        "id": "66fda61b0a9eb2f90af80fb5",
+        "projectId": "IeX6SNpxQ",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "37zxlE15W",
+          "name": "NOC_W02_Hot Rumor_Ting",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_W02_Reference_copy",
+          "id": "37zxlE15W"
+        },
+        "_id": "66fda61b68a64680a85b9a1c",
+        "createdAt": "2024-10-02T19:59:23.915Z",
+        "updatedAt": "2024-10-02T19:59:23.915Z",
+        "id": "66fda61b68a64680a85b9a1c",
+        "projectId": "37zxlE15W",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "XaTs4zu0A",
+          "name": "NOC W02 SDFJ version",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_W02_copy",
+          "id": "XaTs4zu0A"
+        },
+        "_id": "66fda61c0a9eb2f90af80fde",
+        "createdAt": "2024-10-02T19:59:24.232Z",
+        "updatedAt": "2024-10-02T19:59:24.232Z",
+        "id": "66fda61c0a9eb2f90af80fde",
+        "projectId": "XaTs4zu0A",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "-XcwZRBFj",
+          "name": "fire shape",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "curvevertex_copy",
+          "id": "-XcwZRBFj"
+        },
+        "_id": "66fda61d95bce24cd7222920",
+        "createdAt": "2024-10-02T19:59:25.214Z",
+        "updatedAt": "2024-10-02T19:59:25.214Z",
+        "id": "66fda61d95bce24cd7222920",
+        "projectId": "-XcwZRBFj",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "C682qBTWJ",
+          "name": "NOC_#W03_Tornado_Ting",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_W03_Tornado_Ting",
+          "id": "C682qBTWJ"
+        },
+        "_id": "66fda61d95bce24cd7222938",
+        "createdAt": "2024-10-02T19:59:25.551Z",
+        "updatedAt": "2024-10-02T19:59:25.551Z",
+        "id": "66fda61d95bce24cd7222938",
+        "projectId": "C682qBTWJ",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "zRF8aXfIg",
+          "name": "NOC S24 Oscillation - 08 copy",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_S24_Oscillation_-_08_copy",
+          "id": "zRF8aXfIg"
+        },
+        "_id": "66fda61f68a64680a85b9eff",
+        "createdAt": "2024-10-02T19:59:27.614Z",
+        "updatedAt": "2024-10-02T19:59:27.614Z",
+        "id": "66fda61f68a64680a85b9eff",
+        "projectId": "zRF8aXfIg",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "OFe7Q_fxL",
+          "name": "NOC_W04_Heartbeat",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_Forces_-_Combining_Gravitational_Attraction_and_Repulsion_copy",
+          "id": "OFe7Q_fxL"
+        },
+        "_id": "66fda620ee06795640f4b5be",
+        "createdAt": "2024-10-02T19:59:28.976Z",
+        "updatedAt": "2024-10-02T19:59:28.976Z",
+        "id": "66fda620ee06795640f4b5be",
+        "projectId": "OFe7Q_fxL",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "6MBoSqYr_",
+          "name": "NOC S24 Oscillation - 08 copy copy",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_S24_Oscillation_-_08_copy_copy",
+          "id": "6MBoSqYr_"
+        },
+        "_id": "66fda621ee06795640f4b5ea",
+        "createdAt": "2024-10-02T19:59:29.704Z",
+        "updatedAt": "2024-10-02T19:59:29.704Z",
+        "id": "66fda621ee06795640f4b5ea",
+        "projectId": "6MBoSqYr_",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "tw_wl-sCz",
+          "name": "NOC S24 Oscillation - 10 copy",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_S24_Oscillation_-_10_copy",
+          "id": "tw_wl-sCz"
+        },
+        "_id": "66fda6220a9eb2f90af810cb",
+        "createdAt": "2024-10-02T19:59:30.727Z",
+        "updatedAt": "2024-10-02T19:59:30.727Z",
+        "id": "66fda6220a9eb2f90af810cb",
+        "projectId": "tw_wl-sCz",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "ECvbGLT-L",
+          "name": "NOC_W05_Sea at Sunset_Ting",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_W05_Ting",
+          "id": "ECvbGLT-L"
+        },
+        "_id": "66fda623ee06795640f4b61f",
+        "createdAt": "2024-10-02T19:59:31.123Z",
+        "updatedAt": "2024-10-02T19:59:31.123Z",
+        "id": "66fda623ee06795640f4b61f",
+        "projectId": "ECvbGLT-L",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "czXDi3Bny",
+          "name": "NOC_W05_Sea at Sunset_Ting copy",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_W05_Sea_at_Sunset_Ting_copy",
+          "id": "czXDi3Bny"
+        },
+        "_id": "66fda62395bce24cd7222de5",
+        "createdAt": "2024-10-02T19:59:31.582Z",
+        "updatedAt": "2024-10-02T19:59:31.582Z",
+        "id": "66fda62395bce24cd7222de5",
+        "projectId": "czXDi3Bny",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "KyPlbh8Vj",
+          "name": "NOC_W06_Pudding",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_Oscillation_6.2_Spring_Forces_2_copy",
+          "id": "KyPlbh8Vj"
+        },
+        "_id": "66fda625ee06795640f4b680",
+        "createdAt": "2024-10-02T19:59:33.018Z",
+        "updatedAt": "2024-10-02T19:59:33.018Z",
+        "id": "66fda625ee06795640f4b680",
+        "projectId": "KyPlbh8Vj",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "msc-Y1FTZ",
+          "name": "NOC_Project A_Ink",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_Project_A_Ink",
+          "id": "msc-Y1FTZ"
+        },
+        "_id": "66fda6250a9eb2f90af81197",
+        "createdAt": "2024-10-02T19:59:33.357Z",
+        "updatedAt": "2024-10-02T19:59:33.357Z",
+        "id": "66fda6250a9eb2f90af81197",
+        "projectId": "msc-Y1FTZ",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "3waSumssc",
+          "name": "NOC_Project A_Smoke",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_Project_A_Ink_copy",
+          "id": "3waSumssc"
+        },
+        "_id": "66fda626ee06795640f4b6e7",
+        "createdAt": "2024-10-02T19:59:34.465Z",
+        "updatedAt": "2024-10-02T19:59:34.465Z",
+        "id": "66fda626ee06795640f4b6e7",
+        "projectId": "3waSumssc",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "oPdxmt9Rr",
+          "name": "NOC_Project A_Black_Ink",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_Project_A_Ink_copy",
+          "id": "oPdxmt9Rr"
+        },
+        "_id": "66fda62668a64680a85ba977",
+        "createdAt": "2024-10-02T19:59:34.821Z",
+        "updatedAt": "2024-10-02T19:59:34.821Z",
+        "id": "66fda62668a64680a85ba977",
+        "projectId": "oPdxmt9Rr",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "qAONBSg2n",
+          "name": "NOC_Project A_Ink_red",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_Project_A_Ink_01_copy",
+          "id": "qAONBSg2n"
+        },
+        "_id": "66fda627ee06795640f4bac3",
+        "createdAt": "2024-10-02T19:59:35.452Z",
+        "updatedAt": "2024-10-02T19:59:35.452Z",
+        "id": "66fda627ee06795640f4bac3",
+        "projectId": "qAONBSg2n",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "-m3aHYJ6Y",
+          "name": "NOC_Project A_Ink 03",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_Project_A_Ink_02_copy",
+          "id": "-m3aHYJ6Y"
+        },
+        "_id": "66fda62895bce24cd7223815",
+        "createdAt": "2024-10-02T19:59:36.112Z",
+        "updatedAt": "2024-10-02T19:59:36.112Z",
+        "id": "66fda62895bce24cd7223815",
+        "projectId": "-m3aHYJ6Y",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "8glu93LRV",
+          "name": "NOC_Project A_Ink 05_guicolor",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_Project_A_Ink_04_spinning_copy",
+          "id": "8glu93LRV"
+        },
+        "_id": "66fda62a0a9eb2f90af8127c",
+        "createdAt": "2024-10-02T19:59:38.107Z",
+        "updatedAt": "2024-10-02T19:59:38.107Z",
+        "id": "66fda62a0a9eb2f90af8127c",
+        "projectId": "8glu93LRV",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "WSAXcKLnB",
+          "name": "NOC_Project A_Ink 04_spinning",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_Project_A_Ink_03_copy",
+          "id": "WSAXcKLnB"
+        },
+        "_id": "66fda62a95bce24cd72238d0",
+        "createdAt": "2024-10-02T19:59:38.530Z",
+        "updatedAt": "2024-10-02T19:59:38.530Z",
+        "id": "66fda62a95bce24cd72238d0",
+        "projectId": "WSAXcKLnB",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "p2mP4i0kx",
+          "name": "NOC_Project A_Ink 05_guicolor simple",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_Project_A_Ink_05_guicolor_copy",
+          "id": "p2mP4i0kx"
+        },
+        "_id": "66fda62a95bce24cd7223910",
+        "createdAt": "2024-10-02T19:59:38.551Z",
+        "updatedAt": "2024-10-02T19:59:38.551Z",
+        "id": "66fda62a95bce24cd7223910",
+        "projectId": "p2mP4i0kx",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "5B7qizAQ8",
+          "name": "NOC_W09_Infinity 1",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_W09",
+          "id": "5B7qizAQ8"
+        },
+        "_id": "66fda62b0a9eb2f90af81684",
+        "createdAt": "2024-10-02T19:59:39.656Z",
+        "updatedAt": "2024-10-02T19:59:39.656Z",
+        "id": "66fda62b0a9eb2f90af81684",
+        "projectId": "5B7qizAQ8",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "61BOzWiYK",
+          "name": "NOC_W09_Infinity 2",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_W09_copy",
+          "id": "61BOzWiYK"
+        },
+        "_id": "66fda62c68a64680a85bae12",
+        "createdAt": "2024-10-02T19:59:40.169Z",
+        "updatedAt": "2024-10-02T19:59:40.169Z",
+        "id": "66fda62c68a64680a85bae12",
+        "projectId": "61BOzWiYK",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "5fKGzmXQZ",
+          "name": "NOC_W09_Infinity 3",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_W09_2_copy",
+          "id": "5fKGzmXQZ"
+        },
+        "_id": "66fda62cee06795640f4bb93",
+        "createdAt": "2024-10-02T19:59:40.704Z",
+        "updatedAt": "2024-10-02T19:59:40.704Z",
+        "id": "66fda62cee06795640f4bb93",
+        "projectId": "5fKGzmXQZ",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "v2mKr0bD4",
+          "name": "NOC_W09_Infinity 4",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_W09_3_copy",
+          "id": "v2mKr0bD4"
+        },
+        "_id": "66fda62dee06795640f4bbc3",
+        "createdAt": "2024-10-02T19:59:41.122Z",
+        "updatedAt": "2024-10-02T19:59:41.122Z",
+        "id": "66fda62dee06795640f4bbc3",
+        "projectId": "v2mKr0bD4",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "l_zaf9Pjo",
+          "name": "NOC_W09_5",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_W09_4_copy",
+          "id": "l_zaf9Pjo"
+        },
+        "_id": "66fda62e68a64680a85baf6f",
+        "createdAt": "2024-10-02T19:59:42.555Z",
+        "updatedAt": "2024-10-02T19:59:42.555Z",
+        "id": "66fda62e68a64680a85baf6f",
+        "projectId": "l_zaf9Pjo",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "r4iXUQ51M",
+          "name": "NOC_W10_Penguin Hunt",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "NOC_Autonomous_Agents_-_Wanderer_06_-_Avoid_Each_Other_+_Same_Target_(Desire)_copy",
+          "id": "r4iXUQ51M"
+        },
+        "_id": "66fda62e68a64680a85bafa5",
+        "createdAt": "2024-10-02T19:59:42.953Z",
+        "updatedAt": "2024-10-02T19:59:42.953Z",
+        "id": "66fda62e68a64680a85bafa5",
+        "projectId": "r4iXUQ51M",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "sonIL-ZjS",
+          "name": "Final Project",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Final_Project",
+          "id": "sonIL-ZjS"
+        },
+        "_id": "66fda62f95bce24cd72239cf",
+        "createdAt": "2024-10-02T19:59:43.349Z",
+        "updatedAt": "2024-10-02T19:59:43.349Z",
+        "id": "66fda62f95bce24cd72239cf",
+        "projectId": "sonIL-ZjS",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "iC1TtJCC0",
+          "name": "Final Project1",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Final_Project_copy",
+          "id": "iC1TtJCC0"
+        },
+        "_id": "66fda62fee06795640f4bc49",
+        "createdAt": "2024-10-02T19:59:43.737Z",
+        "updatedAt": "2024-10-02T19:59:43.737Z",
+        "id": "66fda62fee06795640f4bc49",
+        "projectId": "iC1TtJCC0",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "NBEHRWWqT",
+          "name": "Final Project2",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Final_Project1_copy",
+          "id": "NBEHRWWqT"
+        },
+        "_id": "66fda630ee06795640f4bce7",
+        "createdAt": "2024-10-02T19:59:44.888Z",
+        "updatedAt": "2024-10-02T19:59:44.888Z",
+        "id": "66fda630ee06795640f4bce7",
+        "projectId": "NBEHRWWqT",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "dE5X0cEcl",
+          "name": "Final Project 3",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Final_Project2_copy",
+          "id": "dE5X0cEcl"
+        },
+        "_id": "66fda63195bce24cd7223a38",
+        "createdAt": "2024-10-02T19:59:45.181Z",
+        "updatedAt": "2024-10-02T19:59:45.181Z",
+        "id": "66fda63195bce24cd7223a38",
+        "projectId": "dE5X0cEcl",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "dirmcMSGAz",
+          "name": "serial",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Palm_stingray",
+          "id": "dirmcMSGAz"
+        },
+        "_id": "66fda632ee06795640f4bd63",
+        "createdAt": "2024-10-02T19:59:46.306Z",
+        "updatedAt": "2024-10-02T19:59:46.306Z",
+        "id": "66fda632ee06795640f4bd63",
+        "projectId": "dirmcMSGAz",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "b9FLnrlqo",
+          "name": "Final Project 4 - Serial",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Final_Project_3_copy",
+          "id": "b9FLnrlqo"
+        },
+        "_id": "66fda63295bce24cd7223aa4",
+        "createdAt": "2024-10-02T19:59:46.697Z",
+        "updatedAt": "2024-10-02T19:59:46.697Z",
+        "id": "66fda63295bce24cd7223aa4",
+        "projectId": "b9FLnrlqo",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "ifcUGCrPH",
+          "name": "Final Project 6  Serial",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Final_Project_4_-_Serial_copy",
+          "id": "ifcUGCrPH"
+        },
+        "_id": "66fda63368a64680a85bb0ee",
+        "createdAt": "2024-10-02T19:59:47.212Z",
+        "updatedAt": "2024-10-02T19:59:47.212Z",
+        "id": "66fda63368a64680a85bb0ee",
+        "projectId": "ifcUGCrPH",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "JhWJbnind",
+          "name": "Final Project 5- Serial",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Final_Project_5-_Serial_copy",
+          "id": "JhWJbnind"
+        },
+        "_id": "66fda634ee06795640f4bdd4",
+        "createdAt": "2024-10-02T19:59:48.404Z",
+        "updatedAt": "2024-10-02T19:59:48.404Z",
+        "id": "66fda634ee06795640f4bdd4",
+        "projectId": "JhWJbnind",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "BcXKhEybk",
+          "name": "Final Project 7 Serial",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Final_Project_6_Serial_copy",
+          "id": "BcXKhEybk"
+        },
+        "_id": "66fda63468a64680a85bb1ac",
+        "createdAt": "2024-10-02T19:59:48.831Z",
+        "updatedAt": "2024-10-02T19:59:48.831Z",
+        "id": "66fda63468a64680a85bb1ac",
+        "projectId": "BcXKhEybk",
+        "isDeleted": false
+      }
+    ],
+    "createdAt": "2024-10-02T19:59:08.401Z",
+    "updatedAt": "2024-10-02T19:59:50.531Z",
+    "__v": 48,
+    "id": "7fg8VMA7H"
+  },
+  {
+    "_id": "xOrC-tppa",
+    "name": "RTM",
+    "description": "",
+    "slug": "RTM",
+    "owner": {
+      "_id": "65b0cf8a7d8185001a7b9254",
+      "username": "Tinggg",
+      "id": "65b0cf8a7d8185001a7b9254"
+    },
+    "items": [
+      {
+        "project": {
+          "_id": "rbFtAs1qK",
+          "name": "RTM Midterm Project 1",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Energetic_sunspot",
+          "id": "rbFtAs1qK"
+        },
+        "_id": "670c4a84da1724bfcf29d996",
+        "createdAt": "2024-10-13T22:32:36.570Z",
+        "updatedAt": "2024-10-13T22:32:36.570Z",
+        "id": "670c4a84da1724bfcf29d996",
+        "projectId": "rbFtAs1qK",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "4_zHqzVei",
+          "name": "RTM Midterm Project 2",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "RTM_Midterm_Project_1_copy",
+          "id": "4_zHqzVei"
+        },
+        "_id": "670c4a85f93010663b2a951f",
+        "createdAt": "2024-10-13T22:32:37.037Z",
+        "updatedAt": "2024-10-13T22:32:37.037Z",
+        "id": "670c4a85f93010663b2a951f",
+        "projectId": "4_zHqzVei",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "SrzPeeEZ9",
+          "name": "RTM Midterm Project 3_Ableton",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "RTM_Midterm_Project_2_copy",
+          "id": "SrzPeeEZ9"
+        },
+        "_id": "670c4a85da1724bfcf29d9a5",
+        "createdAt": "2024-10-13T22:32:37.452Z",
+        "updatedAt": "2024-10-13T22:32:37.452Z",
+        "id": "670c4a85da1724bfcf29d9a5",
+        "projectId": "SrzPeeEZ9",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "6hst_MyeP",
+          "name": "handPose-printing-the-parts exercise",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "handPose-printing-the-parts_copy_copy",
+          "id": "6hst_MyeP"
+        },
+        "_id": "670c4a88da1724bfcf29da66",
+        "createdAt": "2024-10-13T22:32:40.713Z",
+        "updatedAt": "2024-10-13T22:32:40.713Z",
+        "id": "670c4a88da1724bfcf29da66",
+        "projectId": "6hst_MyeP",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "HgMfD2emx",
+          "name": "handPose-printing-the-parts copy",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "handPose-printing-the-parts_copy",
+          "id": "HgMfD2emx"
+        },
+        "_id": "670c4a89da1724bfcf29da7d",
+        "createdAt": "2024-10-13T22:32:41.086Z",
+        "updatedAt": "2024-10-13T22:32:41.086Z",
+        "id": "670c4a89da1724bfcf29da7d",
+        "projectId": "HgMfD2emx",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "GpMB5uSLg",
+          "name": "Speech Controlled Note Playing",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Speech_Controlled_Note_Playing_copy",
+          "id": "GpMB5uSLg"
+        },
+        "_id": "670c4a89da1724bfcf29da8f",
+        "createdAt": "2024-10-13T22:32:41.473Z",
+        "updatedAt": "2024-10-13T22:32:41.473Z",
+        "id": "670c4a89da1724bfcf29da8f",
+        "projectId": "GpMB5uSLg",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "8PLfDnJZj",
+          "name": "Speech Rec",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Speech_copy",
+          "id": "8PLfDnJZj"
+        },
+        "_id": "670c4a8ada1724bfcf29dacb",
+        "createdAt": "2024-10-13T22:32:42.668Z",
+        "updatedAt": "2024-10-13T22:32:42.668Z",
+        "id": "670c4a8ada1724bfcf29dacb",
+        "projectId": "8PLfDnJZj",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "HuVoNZuri",
+          "name": "Speech",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Speech_Synthesis_Singing_Pitch_and_Rate_copy_copy",
+          "id": "HuVoNZuri"
+        },
+        "_id": "670c4a8bda1724bfcf29daef",
+        "createdAt": "2024-10-13T22:32:43.017Z",
+        "updatedAt": "2024-10-13T22:32:43.017Z",
+        "id": "670c4a8bda1724bfcf29daef",
+        "projectId": "HuVoNZuri",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "qJlLEbj4H",
+          "name": "Speech Synthesis Singing Pitch and Rate copy",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Speech_Synthesis_Singing_Pitch_and_Rate_copy",
+          "id": "qJlLEbj4H"
+        },
+        "_id": "670c4a8bda1724bfcf29db04",
+        "createdAt": "2024-10-13T22:32:43.438Z",
+        "updatedAt": "2024-10-13T22:32:43.438Z",
+        "id": "670c4a8bda1724bfcf29db04",
+        "projectId": "qJlLEbj4H",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "LfIkGYulz",
+          "name": "PolySynth Piano copy",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "PolySynth_Piano_copy",
+          "id": "LfIkGYulz"
+        },
+        "_id": "670c4a8cda1724bfcf29dbc9",
+        "createdAt": "2024-10-13T22:32:44.703Z",
+        "updatedAt": "2024-10-13T22:32:44.703Z",
+        "id": "670c4a8cda1724bfcf29dbc9",
+        "projectId": "LfIkGYulz",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "wfQiT6fmF",
+          "name": "Oscillator",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Oscillator",
+          "id": "wfQiT6fmF"
+        },
+        "_id": "670c4a8f1ba367225f4753ce",
+        "createdAt": "2024-10-13T22:32:47.960Z",
+        "updatedAt": "2024-10-13T22:32:47.960Z",
+        "id": "670c4a8f1ba367225f4753ce",
+        "projectId": "wfQiT6fmF",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "ISbmE4Odf",
+          "name": "Notes and Numbers Random Play copy",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "Notes_and_Numbers_Random_Play_copy",
+          "id": "ISbmE4Odf"
+        },
+        "_id": "670c4a90f93010663b2a96f0",
+        "createdAt": "2024-10-13T22:32:48.402Z",
+        "updatedAt": "2024-10-13T22:32:48.402Z",
+        "id": "670c4a90f93010663b2a96f0",
+        "projectId": "ISbmE4Odf",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "1njsbbUrk",
+          "name": "RTM Midterm Project 6_Button Play",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "RTM_Midterm_Project_5_Delete_copy",
+          "id": "1njsbbUrk"
+        },
+        "_id": "670ea137a08c31334481d0c7",
+        "createdAt": "2024-10-15T17:07:03.161Z",
+        "updatedAt": "2024-10-15T17:07:03.161Z",
+        "id": "670ea137a08c31334481d0c7",
+        "projectId": "1njsbbUrk",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "avs78Chya",
+          "name": "RTM Midterm Project 5_Delete",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "RTM_Midterm_Project_4_multiple_copy",
+          "id": "avs78Chya"
+        },
+        "_id": "670ea137e75ba7a2f3c13fbe",
+        "createdAt": "2024-10-15T17:07:03.693Z",
+        "updatedAt": "2024-10-15T17:07:03.693Z",
+        "id": "670ea137e75ba7a2f3c13fbe",
+        "projectId": "avs78Chya",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "APUaVi_5D",
+          "name": "RTM Midterm Project 4_multiple",
+          "user": {
+            "_id": "65b0cf8a7d8185001a7b9254",
+            "username": "Tinggg",
+            "id": "65b0cf8a7d8185001a7b9254"
+          },
+          "slug": "RTM_Midterm_Project_3_Ableton_copy",
+          "id": "APUaVi_5D"
+        },
+        "_id": "670ea138a08c31334481d3de",
+        "createdAt": "2024-10-15T17:07:04.328Z",
+        "updatedAt": "2024-10-15T17:07:04.328Z",
+        "id": "670ea138a08c31334481d3de",
+        "projectId": "APUaVi_5D",
+        "isDeleted": false
+      }
+    ],
+    "createdAt": "2024-10-13T22:32:33.054Z",
+    "updatedAt": "2024-10-15T17:07:04.328Z",
+    "__v": 15,
+    "id": "xOrC-tppa"
+  }
+]

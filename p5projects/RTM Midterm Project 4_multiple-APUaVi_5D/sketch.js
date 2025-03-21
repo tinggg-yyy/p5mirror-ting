@@ -1,0 +1,152 @@
+let letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+let lowNotes = ['B3', 'A#3', 'E1', 'A3', 'B2', 'F2', 'G1', 'F1', 'D#2', 'C#1', 'A#2', 'D1', 'G2', 'F#2', 
+                'C2', 'G#1', 'F#1', 'C#2', 'D2', 'E2', 'C1', 'G#2', 'A#1', 'D#1', 'A2', 'B1'];
+let highNotes = ['A4', 'D#3', 'B4', 'A#4', 'C4', 'F#3', 'G3', 'F3', 'C#4', 'A5', 'G#3', 'G4', 'C#3', 'D4', 
+                 'C3', 'E3', 'F4', 'G#4', 'F#4', 'E4', 'D3', 'B5', 'C5', 'A#5', 'D#4', 'C#5'];
+
+let synth = new p5.PolySynth();
+let displayedLetters = [];
+let currentX = 100;  // 当前字母的X位置
+let currentStaffGroup = 0;  // 当前五线谱组索引
+
+let midiAccess;  // MIDI 访问对象
+let output;      // MIDI 输出对象
+
+function setup() {
+  createCanvas(800, 1400);  // 修改画布大小为800x1400，保持9:16比例
+  textSize(32);
+  textAlign(CENTER, CENTER);
+
+  // 请求 MIDI 访问
+  if (navigator.requestMIDIAccess) {
+    navigator.requestMIDIAccess().then(onMIDISuccess, onMIDIFailure);
+  } else {
+    console.log("Web MIDI API not supported.");
+  }
+}
+
+function onMIDISuccess(midi) {
+  midiAccess = midi;
+  const outputs = midiAccess.outputs;
+  output = outputs.values().next().value;  // 获取第一个输出设备
+  console.log("MIDI output device:", output);
+}
+
+function onMIDIFailure() {
+  console.log("Failed to access MIDI devices.");
+}
+
+function draw() {
+  background(255);
+  
+  // 绘制所有五线谱组
+  for (let i = 0; i < 4; i++) {  // 修改为绘制4组五线谱，每组4行
+    let yBase = 100 + i * 320;  // 每组之间的间距
+    drawStaffGroup(yBase);
+  }
+  
+  // 显示所有已输入的字母
+  for (let i = 0; i < displayedLetters.length; i++) {
+    let letterData = displayedLetters[i];
+    fill(0);
+    textSize(30);
+    text(letterData.letter, letterData.x, letterData.y);  // 保留大小写字母
+  }
+}
+
+function drawStaffGroup(yBase) {
+  // 高音谱表
+  drawStaff(yBase);
+  textSize(130);
+  text('𝄞', 50, yBase + 35);
+
+  // 低音谱表
+  drawStaff(yBase + 140);
+  textSize(90);
+  text('𝄢', 55, yBase + 185);
+}
+
+function drawStaff(y) {
+  stroke(0);
+  strokeWeight(2);
+  for (let i = 0; i < 5; i++) {
+    line(100, y + i * 20, 700, y + i * 20);
+  }
+}
+
+function mapNoteToY(note, staffGroup) {
+  let noteToY = {
+    'A#1': 375, 'B1': 370, 'C1': 360, 'C#1': 355, 'D1': 350, 'D#1': 345, 'E1': 340,
+    'F1': 330, 'F#1': 325, 'G1': 320, 'G#1': 315, 'A2': 310, 'A#2': 305, 'B2': 300,
+    'C2': 290, 'C#2': 285, 'D2': 280, 'D#2': 275, 'E2': 270, 'F2': 260, 'F#2': 255, 'G2': 250,
+    'G#2': 245, 'A3': 240, 'A#3': 235, 'B3': 230,
+
+    // 高音谱表映射
+    'C3': 200, 'C#3': 195, 'D3': 190, 'D#3': 185, 'E3': 180, 'F3': 170, 'F#3': 165, 'G3': 160, 
+    'G#3': 155, 'A4': 150, 'A#4': 145, 'B4': 140, 'C4': 130, 'C#4': 125, 'D4': 120, 'D#4': 115, 
+    'E4': 110, 'F4': 100, 'F#4': 95, 'G4': 90, 'G#4': 85, 'A5': 80, 'A#5': 75, 'B5': 70, 'C5': 60, 
+    'C#5': 55
+  };
+  
+  // 基于当前五线谱组的位置进行偏移
+  return (noteToY[note] || 220) + staffGroup * 320;  // 每组的偏移调整为320
+}
+
+function keyPressed() {
+  let index = letters.indexOf(key);
+  if (index !== -1) {
+    let noteOut;
+
+    if (key === key.toLowerCase()) {
+      noteOut = highNotes[index % highNotes.length];  // 小写字母映射到高音区
+    } else {
+      noteOut = lowNotes[index % lowNotes.length];  // 大写字母映射到低音区
+    }
+
+    // 计算当前字母的 Y 位置和五线谱组
+    let yPosition = mapNoteToY(noteOut, currentStaffGroup);
+
+    // 将字母推入数组，记录字母的 X 和 Y 位置
+    displayedLetters.push({
+      letter: key,
+      x: currentX,
+      y: yPosition
+    });
+
+    // 播放音符
+    synth.play(noteOut, 0.5, 0, 0.5);
+    sendMidiNote(noteOut, 1);  // 发送 MIDI 音符
+
+    // 更新 X 位置
+    currentX += 20;
+
+    // 如果 X 位置超过画布宽度，换到下一行
+    if (currentX > 700) {
+      currentX = 100;  // 重置 X 位置
+      currentStaffGroup++;  // 切换到下一组五线谱
+      if (currentStaffGroup > 3) currentStaffGroup = 0;  // 循环回第一组
+    }
+  }
+}
+
+function sendMidiNote(note, velocity) {
+  // 将音符名称转换为 MIDI 音符编号
+  const noteToMidi = {
+    'B0': 35, 'C1': 36, 'C#1': 37, 'D1': 38, 'D#1': 39, 'E1': 40, 'F1': 41, 'F#1': 42, 'G1': 43,
+    'G#1': 44, 'A1': 45, 'A#1': 46, 'B1': 47, 'C2': 48, 'C#2': 49, 'D2': 50, 'D#2': 51, 'E2': 52,
+    'F2': 53, 'F#2': 54, 'G2': 55, 'G#2': 56, 'A2': 57, 'A#2': 58, 'B2': 59,
+    'C3': 60, 'C#3': 61, 'D3': 62, 'D#3': 63, 'E3': 64, 'F3': 65, 'F#3': 66, 'G3': 67,
+    'G#3': 68, 'A3': 69, 'A#3': 70, 'B3': 71, 'C4': 72, 'C#4': 73, 'D4': 74, 'D#4': 75,
+    'E4': 76, 'F4': 77, 'F#4': 78, 'G4': 79, 'G#4': 80, 'A4': 81, 'A#4': 82, 'B4': 83,
+    'C5': 84, 'C#5': 85
+  };
+
+  let midiNote = noteToMidi[note];
+  
+  if (output && midiNote !== undefined) {
+    output.send([0x90, midiNote, velocity]); // 发送 Note On 消息
+    setTimeout(() => {
+      output.send([0x80, midiNote, velocity]); // 发送 Note Off 消息
+    }, 500); // 500毫秒后发送 Note Off 消息
+  }
+}
