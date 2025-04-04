@@ -1,1 +1,2 @@
-echo
+echo download 1 "IMSE_Tornado_Ting-jxM3nS9dl"
+curl -s https://editor.p5js.org/editor/projects/jxM3nS9dl/zip -o "/Users/yangting/Desktop/IMSE/p5mirror-ting/downloads/zips/IMSE_Tornado_Ting-jxM3nS9dl.zip"
